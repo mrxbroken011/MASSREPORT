@@ -2,8 +2,8 @@ import os
 import time
 
 class Config(object): 
-    API_ID    = int(os.environ.get("API_ID", "23431410"))  #
-    API_HASH  = os.environ.get("API_HASH", "e591e7e5fe15cfcb34731790810633fb") #
+    API_ID = int(os.environ.get("API_ID", "23431410"))  #
+    API_HASH = os.environ.get("API_HASH", "e591e7e5fe15cfcb34731790810633fb") #
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7187102303:AAE_C2VC91EJa6gKyRvarH_M_BABhfaOBaM") #
     
     
