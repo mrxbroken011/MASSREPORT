@@ -2,14 +2,14 @@ import os
 import time
 
 class Config(object):
-    API_ID    = int(os.environ.get("23431410"))  
-    API_HASH  = os.environ.get("e591e7e5fe15cfcb34731790810633fb") 
-    BOT_TOKEN = os.environ.get("7187102303:AAE_C2VC91EJa6gKyRvarH_M_BABhfaOBaM") 
+    API_ID    = int(os.environ.get("23431410")  #
+    API_HASH  = os.environ.get("e591e7e5fe15cfcb34731790810633fb") #
+    BOT_TOKEN = os.environ.get("7187102303:AAE_C2VC91EJa6gKyRvarH_M_BABhfaOBaM") #
     
     
     BOT_START_TIME = time.time()
-    OWNER    = int(os.environ.get("OWNER", "1841914911"))  
-    SUDO = list(map(int, os.environ.get("SUDO", "7386820046").split()))  
+    OWNER    = int(os.environ.get("OWNER", "1841914911"))  #
+    SUDO = list(map(int, os.environ.get("SUDO", "7386820046").split())) #  
     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
     PORT = int(os.environ.get("PORT", "8080")) , 
