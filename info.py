@@ -1,7 +1,7 @@
 import os
 import time
 
-class Config(object):"
+class Config(object):
     API_ID    = int(os.environ.get("23431410"))  
     API_HASH  = os.environ.get("e591e7e5fe15cfcb34731790810633fb") 
     BOT_TOKEN = os.environ.get("7187102303:AAE_C2VC91EJa6gKyRvarH_M_BABhfaOBaM") 
@@ -122,8 +122,8 @@ Tʜɪs ʙᴏᴛ ɪs sᴏʟᴇʟʏ ᴄʀᴇᴀᴛᴇ ᴏʀ ᴅᴇᴠᴇʟᴏᴘ�
 """
 
     ABOUT_MSG = """
-- 𝖬𝗒 𝖭𝖺𝗆𝖾 : <a href=https://t.me/{}>{}</a>
-- 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href=@aboutbrokenx</a>
+- 𝖬𝗒 𝖭𝖺𝗆𝖾 : <a href=https://t.me/aboutbrokenx{}>{}</a>
+- 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : <a href=@mrbrokn</a>
 - 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : Pyrogram
 - 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 𝟥
 - 𝖣𝖺𝗍𝖺𝖡𝖺𝗌𝖾 : 𝖬𝗈𝗇𝗀𝗈𝖣𝖡
